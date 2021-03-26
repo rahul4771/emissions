@@ -1,0 +1,22 @@
+// Custom.scss
+
+@import "modules/custom.scss";
+
+
+// Option A: Include all of Bootstrap
+
+@import "node_modules/bootstrap/scss/bootstrap";
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&display=swap');
+// @import url('https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.8.1/css/bootstrap-select.css');
+
+
+$color_2: #636363;
+$font_family_1:'Lato', sans-serif;
+
+body {
+	font-family: $font_family_1 !important; 
+	font-size: 14px; 
+	line-height: 1.5; 
+	color: $color_2;
+	background: #ffffff;
+}
